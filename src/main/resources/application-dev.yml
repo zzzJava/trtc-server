@@ -1,0 +1,29 @@
+# ----------------- MYSQL配置 ------------------#
+spring:
+  datasource:
+    name: druidDataSource
+    type: com.alibaba.druid.pool.DruidDataSource
+    druid:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://localhost:3306/video?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+      username: root
+      password: 123456
+      max-active: 100 # 最大连接数
+      initial-size: 1 # 初始连接池大小
+      max-wait: 60000
+      min-idle: 1
+      time-between-eviction-runs-millis: 60000
+      min-evictable-idle-time-millis: 300000
+  # ----------------- JPA配置 ------------------#
+  jpa:
+    hibernate:
+      # 在元数据更新时自动执行ddl
+      ddl-auto: update
+    # 显示sql语句
+    show-sql: true
+  # ----------------- redis配置 ------------------#
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    password:
+
