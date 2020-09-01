@@ -27,3 +27,11 @@ spring:
     port: 6379
     password:
 
+# ----------------- cloud app 配置 ------------------#
+tencent:
+  app:
+    sdkAppId: 1400399414
+    appKey: 1920ceb8c270de44587eb6e0ab557cb4533223153a426c7ebbec1ecc5cd2f36d
+  secret:
+    secretId:
+    secretKey:
