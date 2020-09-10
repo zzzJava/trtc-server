@@ -33,5 +33,13 @@ tencent:
     sdkAppId: 1400399414
     appKey: 1920ceb8c270de44587eb6e0ab557cb4533223153a426c7ebbec1ecc5cd2f36d
   secret:
-    secretId:
-    secretKey:
+    secretId: AKID96xe8UmtmYBg1YyuiPr67QUHoTt5g6IO
+    secretKey: 5uVt2GEvGLAj15xaxDEzUjkXAXziZFiv
+  trtc:
+    endpoint: trtc.tencentcloudapi.com
+    region: ap-beijing
+  vod:
+    endpoint: vod.tencentcloudapi.com
+    region: ap-beijing
+    # 转自适应码流任务流名称
+    adaptive-transcode-task: adaptive-transcode

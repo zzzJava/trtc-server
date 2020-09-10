@@ -1,10 +1,7 @@
 server:
   servlet:
-    # 服务器的根路径
     context-path: /video
-  # 服务端口
   port: 8888
 spring:
-  # 当前使用的配置
   profiles:
     active: dev
